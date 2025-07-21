@@ -8,6 +8,8 @@ using Ambev.DeveloperEvaluation.WebApi.Features.Users.DeleteUser;
 using Ambev.DeveloperEvaluation.Application.Users.CreateUser;
 using Ambev.DeveloperEvaluation.Application.Users.GetUser;
 using Ambev.DeveloperEvaluation.Application.Users.DeleteUser;
+using Ambev.DeveloperEvaluation.Application.Users.ListUsers;
+using Ambev.DeveloperEvaluation.Domain.Entities;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Users;
 
@@ -116,6 +118,23 @@ public class UsersController : BaseController
         {
             Success = true,
             Message = "User deleted successfully"
+        });
+    }
+    
+    [HttpGet]
+    [ProducesResponseType(typeof(ApiResponseWithData<List<User>>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetAllUsersCommand(CancellationToken cancellationToken)
+    {
+        //TODO: remove magic number
+        var command = _mapper.Map<ListUsersCommand>(10);
+        var users = await _mediator.Send(command, cancellationToken);
+        return Ok(new ApiResponseWithData<List<User>> 
+        {
+            Success = true,
+            Message = "Users retrieved successfully",
+            Data = users.Users.ToList()
         });
     }
 }
