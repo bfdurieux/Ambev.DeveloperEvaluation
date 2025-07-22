@@ -1,7 +1,6 @@
 ﻿using Ambev.DeveloperEvaluation.Application.Branches.GetBranch;
 using Ambev.DeveloperEvaluation.WebApi.Common;
 using Ambev.DeveloperEvaluation.WebApi.Features.Branches.GetBranch;
-using Ambev.DeveloperEvaluation.WebApi.Features.Users.GetUser;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -37,7 +36,7 @@ public class BranchesController : BaseController
         return Ok(new ApiResponseWithData<GetBranchResponse>
         {
             Success = true,
-            Message = "User retrieved successfully",
+            Message = "Branch retrieved successfully",
             Data = _mapper.Map<GetBranchResponse>(response)
         });
     }
