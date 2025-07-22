@@ -12,96 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8be1253-d510-459f-957f-d929283463e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Customers/GetCustomer/GetCustomerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Customers/GetCustomer/GetCustomerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Customers/GetCustomer/GetCustomerProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Customers/GetCustomer/GetCustomerResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/CreateItem/CreateItemCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/CreateItem/CreateItemHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/CreateItem/CreateItemProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/CreateItem/CreateItemResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/ListItems/ListItemsCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/ListItems/ListItemsHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/ListItems/ListItemsProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/ListItems/ListItemsResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/UpdateItem/UpdateItemCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/UpdateItem/UpdateItemHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/UpdateItem/UpdateItemProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Items/UpdateItem/UpdateItemResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/CreateProduct/CreateProductCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/CreateProduct/CreateProductHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/CreateProduct/CreateProductProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/CreateProduct/CreateProductResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/DeleteProduct/DeleteProductCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/DeleteProduct/DeleteProductHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/DeleteProduct/DeleteProductProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/DeleteProduct/DeleteProductResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/DeleteProduct/DeleteProductValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/GetProduct/GetProductCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/GetProduct/GetProductHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/GetProduct/GetProductProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/GetProduct/GetProductResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/ListProducts/ListProductsCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/ListProducts/ListProductsHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/ListProducts/ListProductsProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Products/ListProducts/ListProductsResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/CreateSale/CreateSaleCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/CreateSale/CreateSaleHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/CreateSale/CreateSaleProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/CreateSale/CreateSaleResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/ListSales/ListSalesCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/ListSales/ListSalesHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/ListSales/ListSalesProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/ListSales/ListSalesResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Branch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Sale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Enums/Unit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/ItemCancelledEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleCancelledEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleCreatedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleModifiedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IBranchRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/ICustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/ISaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Services/ISaleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/BranchConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/CustomerConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/ItemConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/ProductConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/SaleConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BranchRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/ItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/SaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Customers/CustomersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Items/ItemsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Products/ProductsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/SalesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ambev.DeveloperEvaluation/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ambev.DeveloperEvaluation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/GetBranch/GetBranchProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/GetBranch/GetBranchResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ambev.DeveloperEvaluation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ambev.DeveloperEvaluation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/DefaultContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/DefaultContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Migrations/DefaultContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Migrations/DefaultContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IBranchRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IBranchRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BranchRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BranchRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Ambev.DeveloperEvaluation.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Ambev.DeveloperEvaluation.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/SalesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/SalesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,15 +42,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$APPLICATION_PLUGINS_DIR$/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/stubs/http-client.common.d.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$APPLICATION_PLUGINS_DIR$/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/stubs/http-client.d.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$APPLICATION_PLUGINS_DIR$/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$APPLICATION_PLUGINS_DIR$/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/174cdfd56bcd471abff8d95d61867f0ec90938/1f/83df9b0b/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9a00b514f1a941dd9f060453de7f7c4043200/84/c129d91a/Profile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fb69109d67c049a0b5cb5b15b6653f9112c00/2a/40e879e9/IMediator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f16564c8c4b61e6ea398fe412680c6b795b266584ccf6a362aed712dc4d2b387/WebApplication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fce37416598a5fb677f9b329d52e2e9d64e126621a5229f5a5884d87827b9ad/Mapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7415982338a3ccbd2a7a4eb483af627bda727e356b86bb32c5d4f6998f9c/IRequestHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4bc324a395d24ed12db75b0a81536b642509aa14825bf114d9b7c934e2b/Mediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Branches/GetBranch/GetBranchResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -173,23 +96,27 @@
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Application/Sales/UpdateSale/UpdateSaleResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Users/ListUsers/ListUsersProfile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Branch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Entities/Sale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Domain/Entities/Sale.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Enums/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/ItemCancelledEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleCancelledEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleCreatedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Events/SaleModifiedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IBranchRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.Domain/Repositories/IBranchRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/ICustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IItemRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Repositories/ISaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.Domain/Repositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.Domain/Repositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.Domain/Services/ISaleService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/BranchConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/CustomerConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
@@ -198,33 +125,38 @@
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Mapping/SaleConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/BranchRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.ORM/Repositories/BranchRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/CustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/ItemRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.ORM/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.ORM/Repositories/UserRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.ORM/Repositories/UserRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/GetBranch/GetBranchProfile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/GetBranch/GetBranchResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Customers/CustomersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Items/ItemsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Products/ProductsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleProfile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/SalesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/GetUser/GetUserProfile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/CreateSale/CreateSaleResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/SalesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Sales/SalesController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersProfile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/UsersController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/UsersController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Downloads/abi-gth-omnia-developer-evaluation (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Features/Users/ListUsers/ListUsersResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Migrations/DefaultContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/brunodurieux/RiderProjects/Ambev.DeveloperEvaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -246,11 +178,17 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "sale-logic",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.only.changed.lines": "true",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -271,7 +209,6 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -287,7 +224,6 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -303,7 +239,6 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -399,7 +334,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/sale-logic" />
                       </list>
                     </value>
                   </entry>
@@ -431,7 +366,24 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/src/Ambev.DeveloperEvaluation.WebApi/Features/Branches/BranchesController.cs" containingFunctionPresentation="Method 'GetBranch'">
+            <startOffsets>
+              <option value="1125" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1126" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

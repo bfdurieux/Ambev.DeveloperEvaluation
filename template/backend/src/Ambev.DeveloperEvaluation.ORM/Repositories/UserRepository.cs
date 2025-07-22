@@ -75,6 +75,7 @@ public class UserRepository : IUserRepository
 
     public async Task<IEnumerable<User>> GetAllAsync(CancellationToken cancellationToken)
     {
-        return await _context.Users.ToListAsync(cancellationToken);
+        var users = await _context.Users.ToListAsync(cancellationToken);
+        return users;
     }
 }

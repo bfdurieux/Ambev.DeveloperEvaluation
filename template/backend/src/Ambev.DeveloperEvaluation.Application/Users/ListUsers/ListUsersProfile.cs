@@ -14,5 +14,8 @@ public class ListUsersProfile : Profile
     public ListUsersProfile()
     {
         CreateMap<List<User>, ListUsersResult>();
+        CreateMap<IEnumerable<User>, ListUsersResult>();
+        CreateMap<IEnumerable<User>, ListUsersResult>().ReverseMap();
+        CreateMap<List<User>, ListUsersResult>().ReverseMap();
     }
 }

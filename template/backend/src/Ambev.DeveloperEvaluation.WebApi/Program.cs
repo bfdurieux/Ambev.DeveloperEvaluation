@@ -56,6 +56,11 @@ public class Program
             app.UseMiddleware<ValidationExceptionMiddleware>();
             app.UseDeveloperExceptionPage();
 
+            app.UseCors(options =>
+                options.WithOrigins("http://localhost:4200")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()); 
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

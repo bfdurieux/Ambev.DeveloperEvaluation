@@ -35,7 +35,7 @@ public class ListUsersHandler : IRequestHandler<ListUsersCommand, ListUsersResul
     public async Task<ListUsersResult> Handle(ListUsersCommand request, CancellationToken cancellationToken)
     {
         var user = await _userRepository.GetAllAsync(cancellationToken);
-        return _mapper.Map<ListUsersResult>(user);
+        return new ListUsersResult() {Users = user};
     }
     
 }
