@@ -4,5 +4,7 @@ namespace Ambev.DeveloperEvaluation.ORM.Repositories;
 
 public class SaleRepository : BaseRepository, ISaleRepository
 {
-    
+    public SaleRepository(DefaultContext context) : base(context)
+    {
+    }
 }

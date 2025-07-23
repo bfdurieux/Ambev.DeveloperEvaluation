@@ -8,7 +8,7 @@ public class BranchRepository : BaseRepository, IBranchRepository
 {
     private readonly DefaultContext _context;
 
-    public BranchRepository(DefaultContext context)
+    public BranchRepository(DefaultContext context) : base(context)
     {
         _context = context;
     }

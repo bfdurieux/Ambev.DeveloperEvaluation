@@ -1,29 +1,39 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Ambev.DeveloperEvaluation.Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Ambev.DeveloperEvaluation.ORM.Repositories;
 
-public abstract class BaseRepository
+public class BaseRepository : IBaseRepository
 {
     private readonly DefaultContext _context;
-    
-    public async Task<T?> GetByIdAsync<T>(int id) where T : class
+
+    public BaseRepository(DefaultContext context)
     {
-        return await _context.Set<T>().FindAsync(id);       
+        _context = context;
     }
 
-    public async Task<List<T>> GetAllAsync<T>() where T : class
+    public async Task<T?> GetByIdAsync<T>(int id, CancellationToken cancellationToken) where T : class
     {
-        return await _context.Set<T>().ToListAsync();
+        return await _context.Set<T>().FindAsync(id, cancellationToken);       
     }
 
-    public async Task<EntityEntry<T>> InsertAsync<T>(T entity) where T : class
+    public async Task<List<T>> GetAllAsync<T>(CancellationToken cancellationToken) where T : class
     {
-        return await _context.Set<T>().AddAsync(entity);
+        return await _context.Set<T>().ToListAsync(cancellationToken);
+    }
+
+    public async Task<EntityEntry<T>> InsertAsync<T>(T entity, CancellationToken cancellationToken) where T : class
+    {
+        var response = await _context.Set<T>().AddAsync(entity, cancellationToken);
+        await _context.SaveChangesAsync(cancellationToken);
+        return response;
     }
 
     public EntityEntry<T> Delete<T>(T entity) where T : class
     {
-        return _context.Set<T>().Remove(entity);
+        var response = _context.Set<T>().Remove(entity);
+        _context.SaveChanges();
+        return response;
     }
 }

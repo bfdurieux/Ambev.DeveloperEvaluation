@@ -20,7 +20,6 @@
     <Folder Include="Branches\DeleteBranch\" />
     <Folder Include="Branches\ListBranches\" />
     <Folder Include="Branches\UpdateBranch\" />
-    <Folder Include="Customers\CreateCustomer\" />
     <Folder Include="Customers\DeleteCustomer\" />
     <Folder Include="Customers\ListCustomers\" />
     <Folder Include="Customers\UpdateCustomer\" />
