@@ -1,7 +1,9 @@
-﻿namespace Ambev.DeveloperEvaluation.Application.Items.CreateItem;
+namespace Ambev.DeveloperEvaluation.WebApi.Features.Items.CreateItems;
 
-public class CreateItemResult
+public class CreateItemResponse
 {
+    public Guid Id { get; set; }
+
     public Guid ProductId { get; private set; }
 
     public Guid SaleId { get; private set; }

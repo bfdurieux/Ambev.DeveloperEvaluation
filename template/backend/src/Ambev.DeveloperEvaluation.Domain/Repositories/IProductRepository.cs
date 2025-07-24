@@ -1,6 +1,6 @@
 ﻿namespace Ambev.DeveloperEvaluation.Domain.Repositories;
 
-public interface IProductRepository
+public interface IProductRepository : IBaseRepository
 {
     
 }

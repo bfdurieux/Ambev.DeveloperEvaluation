@@ -1,8 +1,8 @@
-﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using Ambev.DeveloperEvaluation.Domain.Entities;
 
-namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale;
+namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales.UpdateSale;
 
-public class UpdateSaleResult
+public class UpdateSaleResponse
 {
     public string SaleNumber { get; set; } = string.Empty;
 
@@ -12,10 +12,9 @@ public class UpdateSaleResult
 
     public Guid BranchId { get; set; }
 
-    public IEnumerable<Item> Items { get; set; }
+    public IEnumerable<Item> Items;
 
     public double TotalPrice { get; private set; }
 
     public bool IsCancelled { get; set; }
-
 }

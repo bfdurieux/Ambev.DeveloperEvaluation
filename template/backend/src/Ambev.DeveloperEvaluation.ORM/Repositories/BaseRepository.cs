@@ -13,7 +13,7 @@ public class BaseRepository : IBaseRepository
         _context = context;
     }
 
-    public async Task<T?> GetByIdAsync<T>(int id, CancellationToken cancellationToken) where T : class
+    public async Task<T?> GetByIdAsync<T>(Guid id, CancellationToken cancellationToken) where T : class
     {
         return await _context.Set<T>().FindAsync(id, cancellationToken);       
     }

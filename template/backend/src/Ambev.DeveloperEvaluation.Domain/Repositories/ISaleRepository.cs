@@ -1,6 +1,9 @@
-﻿namespace Ambev.DeveloperEvaluation.Domain.Repositories;
+﻿using Ambev.DeveloperEvaluation.Domain.Entities;
 
-public interface ISaleRepository
+namespace Ambev.DeveloperEvaluation.Domain.Repositories;
+
+public interface ISaleRepository : IBaseRepository
 {
-    
+    Task<Sale> UpdateSale(Sale request, CancellationToken cancellationToken);
+    Task<List<Sale>> ListSalesAsync(CancellationToken cancellationToken);
 }

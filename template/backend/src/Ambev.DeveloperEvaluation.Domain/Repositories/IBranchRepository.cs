@@ -2,7 +2,7 @@
 
 namespace Ambev.DeveloperEvaluation.Domain.Repositories;
 
-public interface IBranchRepository
+public interface IBranchRepository : IBaseRepository
 {
     Task<Branch?> GetBranchAsync(string location, CancellationToken cancellationToken);
 }

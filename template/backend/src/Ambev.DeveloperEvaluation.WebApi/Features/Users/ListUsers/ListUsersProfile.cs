@@ -10,9 +10,9 @@ public class ListUsersProfile : Profile
     /// </summary>
     public ListUsersProfile()
     {
-        CreateMap<Guid, ListUsersCommand>()
-            .ConstructUsing(id => new ListUsersCommand(10));
         CreateMap<ListUsersResult, ListUsersResponse>();
         CreateMap<ListUsersResult, ListUsersResponse>().ReverseMap();
+        CreateMap<ListUsersCommand, ListUsersRequest>();
+        CreateMap<ListUsersCommand, ListUsersRequest>().ReverseMap();
     }
 }

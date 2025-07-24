@@ -1,8 +1,13 @@
-﻿using AutoMapper;
+﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using AutoMapper;
 
 namespace Ambev.DeveloperEvaluation.Application.Sales.ListSales;
 
 public class ListSalesProfile : Profile
 {
-    
+    public ListSalesProfile()
+    {
+        CreateMap<Sale, ListSalesCommand>();
+        CreateMap<Sale, ListSalesCommand>().ReverseMap();
+    }
 }

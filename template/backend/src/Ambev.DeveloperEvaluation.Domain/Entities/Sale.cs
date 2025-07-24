@@ -12,12 +12,9 @@ public class Sale : BaseEntity
     
     public Guid BranchId { get; set; }
 
-    public IEnumerable<Item> _items;
-    //do this to make setter private?
-    //private readonly List<SaleItem> _items = new List<SaleItem>();
-    //public IReadOnlyCollection<SaleItem> Items => _items.AsReadOnly();
+    public virtual IEnumerable<Item> Items { get; set; }
 
-    public decimal TotalPrice { get; private set; }
+    public double TotalPrice { get; private set; }
     
     public bool IsCancelled { get; set; }
 }

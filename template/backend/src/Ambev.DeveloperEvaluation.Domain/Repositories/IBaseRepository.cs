@@ -4,7 +4,7 @@ namespace Ambev.DeveloperEvaluation.Domain.Repositories;
 
 public interface IBaseRepository
 {
-    Task<T?> GetByIdAsync<T>(int id, CancellationToken cancellationToken) where T : class;
+    Task<T?> GetByIdAsync<T>(Guid id, CancellationToken cancellationToken) where T : class;
 
     Task<List<T>> GetAllAsync<T>(CancellationToken cancellationToken) where T : class;
 

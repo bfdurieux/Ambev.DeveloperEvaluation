@@ -12,12 +12,12 @@ public class CreateSaleRequest
     
     public Guid BranchId { get; set; }
 
-    public IEnumerable<Item> _items;
+    public IEnumerable<Item> Items { get; set; }
     //do this to make setter private?
-    //private readonly List<SaleItem> _items = new List<SaleItem>();
-    //public IReadOnlyCollection<SaleItem> Items => _items.AsReadOnly();
+    //private readonly List<SaleItem> Items = new List<SaleItem>();
+    //public IReadOnlyCollection<SaleItem> Items => Items.AsReadOnly();
 
-    public decimal TotalPrice { get; private set; }
+    public double TotalPrice { get; private set; }
     
     public bool IsCancelled { get; set; }
 }

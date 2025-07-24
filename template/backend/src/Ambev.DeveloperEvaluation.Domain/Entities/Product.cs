@@ -1,16 +1,16 @@
-﻿
-using Ambev.DeveloperEvaluation.Domain.Common;
-using Ambev.DeveloperEvaluation.Domain.Enums;
+﻿using Ambev.DeveloperEvaluation.Domain.Common;
 
 namespace Ambev.DeveloperEvaluation.Domain.Entities;
 
 public class Product : BaseEntity
 {
+    public Guid ItemId { get; set; }
+    
     public string Name { get; set; } = string.Empty;
 
     //measurement unit, kg, liters, m, etc
-    public Unit Unit { get; set; }
+    public string Unit { get; set; }
 
     //price of single item, item class multiplies by
-    public decimal Price { get; set; }
+    public double Price { get; set; }
 }

@@ -1,8 +1,8 @@
-﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+﻿using System.Reflection;
+using Ambev.DeveloperEvaluation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using System.Reflection;
 
 namespace Ambev.DeveloperEvaluation.ORM;
 
@@ -23,6 +23,7 @@ public class DefaultContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<Sale>().HasMany(x => x.Items).WithOne(x => x.Sale).HasForeignKey(x => x.SaleId);
     }
 }
 public class YourDbContextFactory : IDesignTimeDbContextFactory<DefaultContext>
