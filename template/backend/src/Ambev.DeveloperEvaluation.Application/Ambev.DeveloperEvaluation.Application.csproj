@@ -18,7 +18,6 @@
   <ItemGroup>
     <Folder Include="Branches\CreateBranch\" />
     <Folder Include="Branches\DeleteBranch\" />
-    <Folder Include="Branches\ListBranches\" />
     <Folder Include="Branches\UpdateBranch\" />
     <Folder Include="Customers\DeleteCustomer\" />
     <Folder Include="Customers\ListCustomers\" />

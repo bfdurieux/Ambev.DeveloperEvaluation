@@ -1,6 +1,8 @@
 ﻿using Ambev.DeveloperEvaluation.Application.Branches.GetBranch;
+using Ambev.DeveloperEvaluation.Application.Branches.ListBranches;
 using Ambev.DeveloperEvaluation.WebApi.Common;
 using Ambev.DeveloperEvaluation.WebApi.Features.Branches.GetBranch;
+using Ambev.DeveloperEvaluation.WebApi.Features.Branches.ListBranches;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -40,4 +42,20 @@ public class BranchesController : BaseController
             Data = _mapper.Map<GetBranchResponse>(response)
         });
     }
+
+
+    [HttpGet]
+    [ProducesResponseType(typeof(ApiResponseWithData<ListBranchesResponse>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> ListBranches(CancellationToken cancellationToken)
+    {
+        var command = new ListBranchesCommand();
+        var response = await _mediator.Send(command, cancellationToken);
+
+        return Ok(response.Branches);
+    }
+    
+    
+    
 }

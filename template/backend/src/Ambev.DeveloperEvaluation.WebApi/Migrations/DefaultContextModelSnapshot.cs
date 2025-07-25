@@ -65,18 +65,21 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .HasColumnType("uuid")
                         .HasDefaultValueSql("gen_random_uuid()");
 
-                    b.Property<decimal>("Discount")
-                        .HasColumnType("numeric");
+                    b.Property<double>("Discount")
+                        .HasColumnType("double precision");
 
                     b.Property<bool>("IsCancelled")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("boolean")
                         .HasDefaultValue(false);
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
+                    b.Property<double>("Price")
+                        .HasColumnType("double precision");
 
                     b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("ProductId1")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Quantity")
@@ -86,6 +89,10 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId1");
+
+                    b.HasIndex("SaleId");
 
                     b.ToTable("Items", (string)null);
                 });
@@ -97,12 +104,15 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .HasColumnType("uuid")
                         .HasDefaultValueSql("gen_random_uuid()");
 
+                    b.Property<Guid>("ItemId")
+                        .HasColumnType("uuid");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
+                    b.Property<double>("Price")
+                        .HasColumnType("double precision");
 
                     b.Property<string>("Unit")
                         .IsRequired()
@@ -138,8 +148,8 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("numeric");
+                    b.Property<double>("TotalPrice")
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
@@ -192,6 +202,28 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users", (string)null);
+                });
+
+            modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Item", b =>
+                {
+                    b.HasOne("Ambev.DeveloperEvaluation.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId1");
+
+                    b.HasOne("Ambev.DeveloperEvaluation.Domain.Entities.Sale", "Sale")
+                        .WithMany("Items")
+                        .HasForeignKey("SaleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Sale");
+                });
+
+            modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Sale", b =>
+                {
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }
