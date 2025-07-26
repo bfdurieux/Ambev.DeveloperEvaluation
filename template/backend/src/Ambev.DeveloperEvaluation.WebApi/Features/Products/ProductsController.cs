@@ -26,14 +26,8 @@ public class ProductsController : BaseController
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetAllProducts(CancellationToken cancellationToken)
     {
-        //TODO: remove magic number
-        var command = _mapper.Map<ListProductsCommand>(10);
-        var products = await _mediator.Send(command, cancellationToken);
-        return Ok(new ApiResponseWithData<List<Product>>
-        {
-            Success = true,
-            Message = "Users retrieved successfully",
-            Data = products.Products.ToList()
-        });
+        var command = new ListProductsCommand();
+        var response = await _mediator.Send(command, cancellationToken);
+        return Ok(response.Products);
     }
 }

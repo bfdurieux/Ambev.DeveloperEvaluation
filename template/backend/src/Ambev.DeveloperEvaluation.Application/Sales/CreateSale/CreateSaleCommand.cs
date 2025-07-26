@@ -5,6 +5,8 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
 
 public class CreateSaleCommand : IRequest<CreateSaleResult>
 {
+    public Guid Id { get; set; }
+    
     public string SaleNumber { get; set; } = string.Empty;
 
     public DateTime Date { get; private set; }
@@ -13,7 +15,7 @@ public class CreateSaleCommand : IRequest<CreateSaleResult>
 
     public Guid BranchId { get; set; }
 
-    public IEnumerable<Item> Items { get; set; }
+    public IEnumerable<Item>? Items { get; set; }
 
     public double TotalPrice { get; private set; }
 

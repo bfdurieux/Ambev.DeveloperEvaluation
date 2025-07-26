@@ -2,16 +2,18 @@
 
 public class CreateItemResult
 {
-    public Guid ProductId { get; private set; }
+    public Guid Id { get; set; }
 
-    public Guid SaleId { get; private set; }
+    public Guid ProductId { get; set; }
 
-    public int Quantity { get; private set; }
+    public Guid SaleId { get; set; }
+
+    public int Quantity { get; set; }
 
     //price of qtt * product price
-    public double Price { get; private set; }
+    public double Price { get; set; }
 
-    public double Discount { get; private set; }
+    public double Discount { get; set; }
 
     public bool IsCancelled { get; set; }
 }

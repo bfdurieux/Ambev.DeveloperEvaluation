@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using AutoMapper;
 
 namespace Ambev.DeveloperEvaluation.Application.Items.CreateItem;
 
@@ -8,5 +9,7 @@ public class CreateItemProfile : Profile
     {
         CreateMap<CreateItemCommand, CreateItemResult>();
         CreateMap<CreateItemCommand, CreateItemResult>().ReverseMap();
+        CreateMap<Item, CreateItemResult>();
+        CreateMap<Item, CreateItemResult>().ReverseMap();
     }
 }

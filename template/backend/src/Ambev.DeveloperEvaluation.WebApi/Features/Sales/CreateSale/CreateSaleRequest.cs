@@ -6,18 +6,15 @@ public class CreateSaleRequest
 {
     public string SaleNumber { get; set; } =  string.Empty;
 
-    public DateTime Date { get; private set; }
+    public DateTime Date { get; set; }
 
-    public Guid CustomerId { get; private set; }
+    public Guid CustomerId { get; set; }
     
     public Guid BranchId { get; set; }
 
-    public IEnumerable<Item> Items { get; set; }
-    //do this to make setter private?
-    //private readonly List<SaleItem> Items = new List<SaleItem>();
-    //public IReadOnlyCollection<SaleItem> Items => Items.AsReadOnly();
+    public IEnumerable<Item>? Items { get; set; }
 
-    public double TotalPrice { get; private set; }
+    public double TotalPrice { get; set; }
     
     public bool IsCancelled { get; set; }
 }

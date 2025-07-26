@@ -1,4 +1,5 @@
-﻿using Ambev.DeveloperEvaluation.Domain.Repositories;
+﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using Ambev.DeveloperEvaluation.Domain.Repositories;
 using AutoMapper;
 using MediatR;
 
@@ -17,7 +18,8 @@ public class CreateItemHandler : IRequestHandler<CreateItemCommand, CreateItemRe
 
     public async Task<CreateItemResult> Handle(CreateItemCommand request, CancellationToken cancellationToken)
     {
-        var response = await _itemRepository.InsertAsync(request, cancellationToken);
+        var item = _mapper.Map<Item>(request);
+        var response = await _itemRepository.InsertAsync(item, cancellationToken);
         return _mapper.Map<CreateItemResult>(response.Entity);
     }
 }
