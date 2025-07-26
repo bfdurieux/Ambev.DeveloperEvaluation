@@ -31,4 +31,12 @@ public class SaleRepository : BaseRepository, ISaleRepository
         var sales = await _context.Sales.Include(x => x.Items).ToListAsync(cancellationToken);
         return sales;
     }
+
+    public async Task<Sale> GetSaleByIdAsync(Guid id, CancellationToken cancellationToken)
+    {
+        return await _context.Sales
+            .Include(x => x.Items)
+            .ThenInclude(x => x.Product)
+            .FirstAsync(x => x.Id == id, cancellationToken);
+    }
 }

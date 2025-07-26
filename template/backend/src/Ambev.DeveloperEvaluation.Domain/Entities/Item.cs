@@ -19,6 +19,4 @@ public class Item : BaseEntity
 
     // table relationships
     public virtual Product? Product { get; set; }
-
-    public Sale Sale { get; set; }
 }

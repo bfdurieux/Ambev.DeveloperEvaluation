@@ -23,7 +23,7 @@ public class DefaultContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
-        modelBuilder.Entity<Sale>().HasMany(x => x.Items).WithOne(x => x.Sale).HasForeignKey(x => x.SaleId);
+        modelBuilder.Entity<Sale>().HasMany(x => x.Items);
         modelBuilder.Entity<Item>().HasOne(x => x.Product);
         modelBuilder.Entity<Item>().HasKey(x =>
             new

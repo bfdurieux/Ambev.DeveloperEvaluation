@@ -42,7 +42,7 @@ public class UpdateSaleHandler : IRequestHandler<UpdateSaleCommand, UpdateSaleRe
         }
 
 
-        request.TotalPrice = request.Items.Sum(i => i.Price);
+        request.TotalPrice = request.Items.Where(x => x.IsCancelled == false).Sum(i => i.Price);
 
         var sale = _mapper.Map<Sale>(request);
         var result = await _saleRepository.UpdateSale(sale, cancellationToken);

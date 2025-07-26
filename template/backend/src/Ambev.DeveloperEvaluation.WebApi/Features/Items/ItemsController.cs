@@ -49,11 +49,6 @@ public class ItemsController : BaseController
     {
         var command = _mapper.Map<UpdateItemCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
-        return Ok(new ApiResponseWithData<CreateItemResponse>
-        {
-            Success = true,
-            Message = "Item created successfully",
-            Data = _mapper.Map<CreateItemResponse>(response)
-        });
+        return Ok(response);
     }
 }
