@@ -15,4 +15,17 @@
     <PackageReference Include="OneOf" Version="3.0.271" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Branches\CreateBranch\" />
+    <Folder Include="Branches\DeleteBranch\" />
+    <Folder Include="Branches\UpdateBranch\" />
+    <Folder Include="Customers\DeleteCustomer\" />
+    <Folder Include="Customers\ListCustomers\" />
+    <Folder Include="Customers\UpdateCustomer\" />
+    <Folder Include="Items\DeleteItem\" />
+    <Folder Include="Items\GetItem\" />
+    <Folder Include="Products\UpdateProduct\" />
+    <Folder Include="Sales\DeleteSale\" />
+  </ItemGroup>
+
 </Project>
